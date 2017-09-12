@@ -60,6 +60,8 @@
         </LinearLayout>
         <!--signin-->
         <Button
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
             android:textColor="@color/white"
             android:background="@color/colorPrimary"
             android:text="@string/signin"
@@ -68,6 +70,7 @@
 
         <!--new register-->
         <TextView
+            android:layout_marginTop="15dp"
             android:textColor="@color/colorAccent"
             android:textStyle="bold"
             android:textSize="@dimen/h2"
