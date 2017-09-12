@@ -50,7 +50,27 @@
 
             </LinearLayout>
 
+            <!--User-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
+                https://github.com/pdarlingq/HomeChok.git  <!--icon-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_user" />
+
+                <!--Name-->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="User :"
+                    android:inputType="text" />
+
+
+            </LinearLayout>
             <!--Password-->
             <LinearLayout
                 android:layout_width="match_parent"
