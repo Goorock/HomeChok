@@ -19,11 +19,13 @@
     <!--Content-->
 
     <ScrollView
+        android:padding="@dimen/padding"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <!--Content-->
         <LinearLayout
+            android:background="#78ffffff"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
