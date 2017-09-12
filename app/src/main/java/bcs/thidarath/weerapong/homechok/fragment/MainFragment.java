@@ -14,12 +14,14 @@ import bcs.thidarath.weerapong.homechok.R;
  * Created by Administrator on 11/9/2560.
  */
 
-public class MainFragment extends Fragment{
+public class MainFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragmant_main,container,false);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
+    {
+        View view = inflater.inflate(R.layout.fragmant_main, container, false);
+
         return view;
     }   //onCreateView
 
@@ -41,7 +43,7 @@ public class MainFragment extends Fragment{
             public void onClick(View view) {
                 getActivity().getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentFragmentMain,new RegisterFagment())
+                        .replace(R.id.contentFragmentMain, new RegisterFagment())
                         .addToBackStack(null)
                         .commit();
 
